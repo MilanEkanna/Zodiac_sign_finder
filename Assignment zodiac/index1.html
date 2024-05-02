@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodaic sign Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Find Your Zodiac</title>
+
+    <!-- fonts add -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="th.jpeg">
+</head>
+
+
+<body class="body_container">
+
+    <nav>
+        <ul class="sidebar">
+            <li><a href="#">Zodiac Sign Finder</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Horoscopes</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+       
+    </nav>
+
+    
+    
+    
+    <div class="container">
+        <header class="header_container">
+            <h1 class="header_title">To find your zodiac sign - select your Birthdate:</h1>
+            <p class="header_description">Do you often ponder, "What is my zodiac sign?" Let us explore the captivating world of astrology .</p>
+        </header>
+
+        <div class="wrapper">
+            <div class="card">
+                <form onsubmit = "findZodiac(event)" >
+                    <input type="date" required>
+                    <input type="submit" value="find your zodiac sign">
+                </form>
+            </div>
+        </div>
+        
+        <main class="main-container">
+            <!-- card 1 start -->
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/aquarius.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48);">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Aquarius</h2>
+                    </a>
+                    <p class="card_desc">
+                        The key feature of Aquarius sign is curiosity and the ability of deep insight. Aquarius sign is the sign of geniuses. Aquarius sign is contradictory in love. Aquarius sign has a very sensitive nervous system
+                    </p>
+                </div>
+                   
+            </div>   
+            <!-- card end -->
+            
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/aries.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)";>
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Aries</h2>
+                    </a>
+                    <p class="card_desc">
+                        People of Aries sign are open-hearted and strong. Their main features are frankness and honesty. Aries sign loves work. Aries sign is true and fair in love.
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/cancer.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Cancer</h2>
+                    </a>
+                    <p class="card_desc">
+                        Cancer sign may suffer from melancholy and fears. Cancer sign likes to save money. Cancer woman is changeable in love. Cancer man is gallant and sentimental. 
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/capricorn.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Capricorn</h2>
+                    </a>
+                    <p class="card_desc">
+                        Capricorn sign knows what he wants. Capricorn sign has good manners. Capricorn sign adores success and power. Capricorn sign does not allow emotions to blind him. Capricorn sign may fall ill because of anxiety.
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/gemini.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Gemini</h2>
+                    </a>
+                    <p class="card_desc">
+                        Gemini sign is intellectual sign. People of Gemini sign are graceful and clever. For Gemini sign money and love are always not enough. Gemini sign love is illusory
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/leo.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Leo</h2>
+                    </a>
+                    <p class="card_desc">
+                        Leadership is characteristic for Leo sign. Leo sign is a real friend. Leo sign is successful in all undertakings. Life without love does not exist for Leo sign. People of Leo sign are surprisingly viable
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/libra.svg" alt="image" class="card_image" loading="lazy"style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Libra</h2>
+                    </a>
+                    <p class="card_desc">
+                        Libra sign is pleasant, kind, and active. Libra sign penetrates into the essence of any matter. Libra sign is extremely responsible. Love and balance are synonyms for Libra sign. 
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/pisces.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Pisces</h2>
+                    </a>
+                    <p class="card_desc">
+                        Life is a huge stage for Pisces sign. People of Pisces sign may become good writers or artists. Pisces sign ambitions are few. People of Pisces sign are great romanticists. Pisces sign should abstain from troubles and overwork
+                    </p>
+                </div>
+               
+            </div>
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/sagittarius.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Sagittarius</h2>
+                    </a>
+                    <p class="card_desc">
+                        Sagittarius sign is a cheerful idealist. Sagittarius sign is very fortunate and quickly advances forward. Sagittarius sign love is superficial, but honest. Sagittarius sign is seldom ill and quickly recovers.
+                    </p>
+                </div>
+               
+            </div>
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/scorpio.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Scorpio</h2>
+                    </a>
+                    <p class="card_desc">
+                        Scorpio sign is an expression of selfishness. Scorpio sign is philosopher by nature. Scorpio sign can achieve everything. Scorpio sign unites the reason and passions. Scorpio sign people are seldom ill.
+                    </p>
+                </div>
+               
+            </div>
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/taurus.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Taurus</h2>
+                    </a>
+                    <p class="card_desc">
+                        Taurus sign people are stubborn and accept things such as they are. Taurus sign is faithful and capable for strong love. Taurus sign and money are inseparable
+                    </p>
+                </div>
+               
+            </div>
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="./icons/virgo.svg" alt="image" class="card_image" loading="lazy" style="background-color: rgb(49, 48, 48)">
+                </a>
+                <div class="card_title_container">
+                    <a href="#"class = "card_title_anchor">
+                        <h2 class = "card_title">Virgo</h2>
+                    </a>
+                    <p class="card_desc">
+                        Virgo sign is open-hearted, sincere, and likes punctuality, thrift and inventiveness. Virgo sign is practical. Virgo sign shares love quietly and equally. Virgo sign cares of the body and right nutrition.
+                    </p>
+                </div>
+               
+            </div>
+        </main>
+    </div>
+
+<br>
+<hr>
+<hr>
+
+    <footer class="foot">
+
+        <br><br>
+        <h4>all right reserved by Milan</h4><br>
+        <p>for contact details</p><br>
+        <a href="mailto: milanmekanna@gmail.com">Mail us</a><br>
+    </footer>
+    <!-- Index.js linking -->
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
